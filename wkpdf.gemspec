@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Christian Plessl"]
-  s.date = %q{2013-07-03}
+  s.date = %q{2013-09-19}
   s.default_executable = %q{wkpdf}
   s.description = %q{wkpdf renders HTML to PDF using WebKit on Mac OS X. wkpdf is implemented in RubyCocoa.}
   s.email = %q{wkpdf@plesslweb.ch}
@@ -35,6 +35,7 @@ Gem::Specification.new do |s|
     "lib/commandline_parser.rb",
     "lib/controller.rb",
     "lib/wkpdf.rb",
+    "scripts/check-responsive.sh",
     "scripts/mirror-and-convert.rb",
     "test/IdeasForTestcases.txt",
     "test/rubycocoa/NSPrinterTest.rb",
